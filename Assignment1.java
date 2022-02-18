@@ -26,7 +26,7 @@ public class Assignment1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
-
+	//Execution starts here.
 	@Test
 	public void test() {
 		driver.get(baseURL);
